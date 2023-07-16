@@ -98,32 +98,47 @@ function App() {
     )
   );
 
-
+  const filteredUsers2 = data.users.filter((user) =>
+    user.schedule.some(
+      (schedule) =>
+        schedule.day === selectedDay
+      )
+  );
 
   return (
     <div>
       <div className="container">
         <h1>Users' Routines</h1>
       </div>
+
       <div className="container">
         <div>
           <h2><b>Select Day Then Time</b></h2>
           <h2>Select a day:</h2>
           <ul>
             {daysOfWeek.map((day) => (
-              <li key={day} onClick={() => handleDaySelect(day)}>
+              <li
+                key={day}
+                className={selectedDay === day ? "selected" : ""}
+                onClick={() => handleDaySelect(day)}
+              >
                 {day}
               </li>
             ))}
           </ul>
         </div>
       </div>
+
       <div className="container">
         <div>
           <h2>Select a time slot:</h2>
           <ul>
             {timeSlots.map((timeSlot) => (
-              <li key={timeSlot} onClick={() => handleTimeSlotSelect(timeSlot)}>
+              <li
+                key={timeSlot}
+                className={selectedTimeSlot === timeSlot ? "selected" : ""}
+                onClick={() => handleTimeSlotSelect(timeSlot)}
+              >
                 {timeSlot}
               </li>
             ))}
@@ -131,43 +146,80 @@ function App() {
         </div>
       </div>
       <div>
-      <div className="container">
-        {selectedDay && selectedTimeSlot && (
-          <div>
-            <h2>
-              {selectedDay} - {selectedTimeSlot}
-            </h2>
-            {filteredUsers.length > 0 ? (
-              filteredUsers.map((user) => (
-                <div key={user.name}>
-                  <h3>{user.name}</h3>
-                  <ul>
-                    {user.schedule.filter((schedule) => schedule.day === selectedDay).map((schedule) =>
-                      schedule.classes.filter(
-                        (classItem) =>
-                          (checkTimeSlot(selectedTimeSlot, classItem))
-                      )
-                        .map((classItem) => (
-                          <li key={classItem.course}>
-                            {classItem.time} - {classItem.course}
-                          </li>
-                        ))
-                    )}
-                  </ul>
-                </div>
-              ))
-            ) : (
-              <p>No users have classes on {selectedDay} - {selectedTimeSlot}.</p>
-            )}
-          </div>
-        )}
-      </div>
+        <div className="container">
+          {selectedDay && selectedTimeSlot && (
+            <div>
+              <h2>
+                {selectedDay} - {selectedTimeSlot}
+              </h2>
+              {filteredUsers.length > 0 ? (
+                filteredUsers.map((user) => (
+                  <div key={user.name}>
+                    <h3>{user.name}</h3>
+                    <ul>
+                      {user.schedule
+                        .filter((schedule) => schedule.day === selectedDay)
+                        .map((schedule) =>
+                          schedule.classes
+                            .filter(
+                              (classItem) =>
+                                checkTimeSlot(selectedTimeSlot, classItem)
+                            )
+                            .map((classItem) => (
+                              <li
+                                key={classItem.course}
+                                className="show"
+                              >
+                                {classItem.time} - {classItem.course}
+                              </li>
+                            ))
+                        )}
+                    </ul>
+                  </div>
+                ))
+              ) : (
+                <p>No users have classes on {selectedDay} - {selectedTimeSlot}.</p>
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
+      <div>
+        <div className="container">
+          {selectedDay && !selectedTimeSlot && (
+            <div>
+              <h2>
+                {selectedDay} - {selectedTimeSlot}
+              </h2>
+              {filteredUsers2.length > 0 ? (
+                filteredUsers2.map((user) => (
+                  <div key={user.name}>
+                    <h3>{user.name}</h3>
+                    <ul>
+                      {user.schedule
+                        .filter((schedule) => schedule.day === selectedDay).map((schedule) =>
+                          schedule.classes.map((classItem) => (
+                              <li
+                                key={classItem.course}
+                                className="show"
+                              >
+                                {classItem.time} - {classItem.course}
+                              </li>
+                            ))
+                        )}
+                    </ul>
+                  </div>
+                ))
+              ) : (
+                <p>No users have classes on {selectedDay} - {selectedTimeSlot}.</p>
+              )}
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
-};
-
-
+}
 
 export default App;

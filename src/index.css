@@ -1,22 +1,73 @@
 body {
   margin: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: rgb(240, 236, 232);
+  font-variant: small-caps;
+  background-color: rgb(216, 209, 202);
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 li{
   margin: 15px;
   cursor: grab;
 }
-.container{
- 
+.container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+.container h1 {
+  text-align: center;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.container ul li.selected {
+  background-color: #363636;
+  color: #fff;
+}
+.container ul li.show {
+  text-align: center;
+  background-color: #b95656;
+  color: #fff;
+}
+
+.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.container ul li:hover {
+  background-color: #e6e6e6;
+}
+
+.selected-routine {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.selected-routine h2 {
+  text-align: center;
+}
+
+.selected-routine ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.selected-routine li {
+  margin-bottom: 5px;
+}
+
