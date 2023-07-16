@@ -88,7 +88,7 @@
                     "classes": [
                         {
                             "time": "09:25 AM - 07:00 PM",
-                            "course": "Programming Lab",
+                            "course": "Programming Contests",
                             "duration": 5
                         }
                     ]
@@ -321,6 +321,281 @@
                             "course": "EEE141L.13",
                             "duration": 2
                         }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Samia Akter Priya",
+            "schedule": [
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "MIC316.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "BBT203.2",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "MIC316.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "09:25 AM - 12:05 PM",
+                            "course": "BIO201L.8",
+                            "duration": 2
+                        },
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "BBT203.2",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "MIC315.2",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "MIC315.2",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "MIC309.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "HIS103.21",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "MIC309.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "HIS103.21",
+                            "duration": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Zarin Sabah",
+            "schedule": [
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "ENV373.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "MAT125.24",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 04:20 PM",
+                            "course": "CEE250L.3",
+                            "duration": 2
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "ENV373.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "MAT125.24",
+                            "duration": 1
+                        }                        
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "CEE260.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "CEE260.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "CEE213.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "CEE212.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "CEE250.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "04:30 PM - 07:00 PM",
+                            "course": "CEE212L.3",
+                            "duration": 2
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "CEE213.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "CEE212.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "CEE250.1",
+                            "duration": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Tanvir Ahmed Khan",
+            "schedule": [             
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "CSE332.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "10:50 AM - 01:30 PM",
+                            "course": "PHY107L.20",
+                            "duration": 2
+                        },
+                        {
+                            "time": "01:40 PM - 04:20 PM",
+                            "course": "CSE332L.1",
+                            "duration": 2
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "CSE332.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "EEE111.12",
+                            "duration": 1
+                        },
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "PHY107.13",
+                            "duration": 1
+                        },
+                        {
+                            "time": "10:50 AM - 01:30 PM",
+                            "course": "EEE111L.12",
+                            "duration": 2
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "HIS102.02",
+                            "duration": 1
+                        }                       
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "EEE111.12",
+                            "duration": 1
+                        },
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "PHY107.13",
+                            "duration": 1
+                        },                     
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "HIS102.02",
+                            "duration": 1
+                        }           
                     ]
                 }
             ]
