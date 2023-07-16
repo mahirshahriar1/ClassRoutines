@@ -9,10 +9,10 @@ function App() {
 
   const handleDaySelect = (day) => {
     setSelectedDay(day);
-    setSelectedTimeSlot(""); 
+    setSelectedTimeSlot("");
   };
 
- 
+
   const handleTimeSlotSelect = (timeSlot) => {
     setSelectedTimeSlot(timeSlot);
   };
@@ -28,7 +28,7 @@ function App() {
     "Friday",
   ];
 
- 
+
   const timeSlots = [
     "08:00 AM - 09:15 AM",
     "09:25 AM - 10:40 AM",
@@ -81,6 +81,7 @@ function App() {
     }
   };
 
+
   const filteredUsers = data.users.filter((user) =>
     user.schedule.some(
       (schedule) =>
@@ -101,32 +102,40 @@ function App() {
 
   return (
     <div>
-      <h1>Users' Routines</h1>
-      <div>
-        <h2>Select a day:</h2>
-        <ul>
-          {daysOfWeek.map((day) => (
-            <li key={day} onClick={() => handleDaySelect(day)}>
-              {day}
-            </li>
-          ))}
-        </ul>
+      <div className="container">
+        <h1>Users' Routines</h1>
+      </div>
+      <div className="container">
+        <div>
+          <h2><b>Select Day Then Time</b></h2>
+          <h2>Select a day:</h2>
+          <ul>
+            {daysOfWeek.map((day) => (
+              <li key={day} onClick={() => handleDaySelect(day)}>
+                {day}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      <div className="container">
+        <div>
+          <h2>Select a time slot:</h2>
+          <ul>
+            {timeSlots.map((timeSlot) => (
+              <li key={timeSlot} onClick={() => handleTimeSlotSelect(timeSlot)}>
+                {timeSlot}
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
       <div>
-        <h2>Select a time slot:</h2>
-        <ul>
-          {timeSlots.map((timeSlot) => (
-            <li key={timeSlot} onClick={() => handleTimeSlotSelect(timeSlot)}>
-              {timeSlot}
-            </li>
-          ))}
-        </ul>
-      </div>
-      <div>
+      <div className="container">
         {selectedDay && selectedTimeSlot && (
           <div>
             <h2>
-              Routine for {selectedDay} - {selectedTimeSlot}:
+              {selectedDay} - {selectedTimeSlot}
             </h2>
             {filteredUsers.length > 0 ? (
               filteredUsers.map((user) => (
@@ -136,7 +145,7 @@ function App() {
                     {user.schedule.filter((schedule) => schedule.day === selectedDay).map((schedule) =>
                       schedule.classes.filter(
                         (classItem) =>
-                         (checkTimeSlot(selectedTimeSlot, classItem))
+                          (checkTimeSlot(selectedTimeSlot, classItem))
                       )
                         .map((classItem) => (
                           <li key={classItem.course}>
@@ -153,6 +162,8 @@ function App() {
           </div>
         )}
       </div>
+      </div>
+
     </div>
   );
 };

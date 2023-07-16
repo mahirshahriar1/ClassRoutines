@@ -82,6 +82,16 @@
                             "duration": 1
                         }
                     ]
+                },
+                {
+                    "day": "Friday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 07:00 PM",
+                            "course": "Programming Lab",
+                            "duration": 5
+                        }
+                    ]
                 }
             ]
         },
