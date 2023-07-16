@@ -1,0 +1,169 @@
+{
+    "users": [
+        {
+            "name": "Mahir Shahriar",
+            "schedule": [
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "BIO103.10",
+                            "duration": 1
+                        },
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "EEE111.6",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "MAT125.24",
+                            "duration": 1
+                        },
+                        {
+                            "time": "04:30 PM - 07:00 PM",
+                            "course": "EEE111L.6",
+                            "duration": 2
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "BIO103.10",
+                            "duration": 1
+                        },
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "EEE111.6",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "MAT125.24",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "CSE332.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 04:20 PM",
+                            "course": "CSE332L.1",
+                            "duration": 2
+                        },
+                        {
+                            "time": "04:30 PM - 05:45 PM",
+                            "course": "CSE373.5",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 10:40 AM",
+                            "course": "CSE332.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "04:30 PM - 05:45 PM",
+                            "course": "CSE373.5",
+                            "duration": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Khadija Tanzim Tanha",
+            "schedule": [
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 01:30 PM",
+                            "course": "ARC215.2",
+                            "duration": 3
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 01:30 PM",
+                            "course": "ARC215.2",
+                            "duration": 3
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "PBH101.10",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ARC272.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "03:05 PM - 04:20 PM",
+                            "course": "ARC283.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "PBH101.10",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ARC272.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "ARC334.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "classes": [
+                        {
+                            "time": "09:25 AM - 01:30 PM",
+                            "course": "ARC215.2",
+                            "duration": 3
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ARC282.2",
+                            "duration": 1
+                        }                      
+                    ]
+                }
+            ]
+        }
+    ]
+}
