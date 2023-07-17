@@ -96,6 +96,66 @@
             ]
         },
         {
+            "name": "Megha Sheikh",
+            "schedule": [
+                {
+                    "day": "Sunday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "BBT314.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ENG105.4",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Tuesday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "BBT314.1",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ENG105.4",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "BBT315.2",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "BBT315.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "03:05 PM - 05:45 PM",
+                            "course": "BIO201L.8",
+                            "duration": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "name": "Khadija Tanzim Tanha",
             "schedule": [
                 {
@@ -170,66 +230,6 @@
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ARC282.2",
                             "duration": 1
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "Megha Sheikh",
-            "schedule": [
-                {
-                    "day": "Sunday",
-                    "classes": [
-                        {
-                            "time": "12:15 PM - 01:30 PM",
-                            "course": "BBT314.1",
-                            "duration": 1
-                        },
-                        {
-                            "time": "01:40 PM - 02:55 PM",
-                            "course": "ENG105.4",
-                            "duration": 1
-                        }
-                    ]
-                },
-                {
-                    "day": "Tuesday",
-                    "classes": [
-                        {
-                            "time": "12:15 PM - 01:30 PM",
-                            "course": "BBT314.1",
-                            "duration": 1
-                        },
-                        {
-                            "time": "01:40 PM - 02:55 PM",
-                            "course": "ENG105.4",
-                            "duration": 1
-                        }
-                    ]
-                },
-                {
-                    "day": "Monday",
-                    "classes": [
-                        {
-                            "time": "12:15 PM - 01:30 PM",
-                            "course": "BBT315.2",
-                            "duration": 1
-                        }
-                    ]
-                },
-                {
-                    "day": "Wednesday",
-                    "classes": [
-                        {
-                            "time": "12:15 PM - 01:30 PM",
-                            "course": "BBT315.2",
-                            "duration": 1
-                        },
-                        {
-                            "time": "03:05 PM - 05:45 PM",
-                            "course": "BIO201L.8",
-                            "duration": 2
                         }
                     ]
                 }
@@ -413,6 +413,81 @@
                         }
                     ]
                 }
+            ]
+        },
+        {
+            "name": "Adeeba Sadaf",
+            "schedule": [             
+                {
+                    "day": "Monday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "ENV373.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "ECO103.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ENV172.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Wednesday",
+                    "classes": [
+                        {
+                            "time": "10:50 AM - 12:05 PM",
+                            "course": "ENV373.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "ECO103.2",
+                            "duration": 1
+                        },
+                        {
+                            "time": "01:40 PM - 02:55 PM",
+                            "course": "ENV172.1",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Thursday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "HIS103.42",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "ENG105.16",
+                            "duration": 1
+                        }
+                    ]
+                },
+                {
+                    "day": "Saturday",
+                    "classes": [
+                        {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "HIS103.42",
+                            "duration": 1
+                        },
+                        {
+                            "time": "12:15 PM - 01:30 PM",
+                            "course": "ENG105.16",
+                            "duration": 1
+                        }
+                    ]
+                }               
             ]
         },
         {

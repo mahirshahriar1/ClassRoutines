@@ -104,7 +104,7 @@ function App() {
         schedule.day === selectedDay
       )
   );
-
+  
   return (
     <div>
       <div className="container">
