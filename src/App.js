@@ -97,15 +97,13 @@ function App() {
         })
     )
   );
-
+        
   const filteredUsers2 = data.users.filter((user) =>
-    user.schedule.some(
-      (schedule) =>
-        schedule.day === selectedDay
-      )
-  );
+     user.schedule.filter()
+
   
-  return (
+     // console.log(filteredUsers2);
+  return (  
     <div>
       <div className="container">
         <h1>Users' Routines</h1>
@@ -200,15 +198,15 @@ function App() {
                       {user.schedule
                         .filter((schedule) => schedule.day === selectedDay).map((schedule) =>
                           schedule.classes.map((classItem) => (
-                              <li
-                                key={classItem.course}
-                                className="show"         
-                                style={{marginBottom:'20px'}}                      
-                              >
-                                {classItem.time} - {classItem.course} <div style={{color:'white', background:'black'}} >{classItem.room}</div>
-                              </li>
-                          
-                            ))
+                            <li
+                              key={classItem.course}
+                              className="show"
+                              style={{ marginBottom: '20px' }}
+                            >
+                              {classItem.time} - {classItem.course} <div style={{ color: 'white', background: 'black' }} >{classItem.room}</div>
+                            </li>
+
+                          ))
                         )}
                     </ul>
                   </div>
