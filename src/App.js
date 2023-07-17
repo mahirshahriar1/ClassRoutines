@@ -170,7 +170,7 @@ function App() {
                                 key={classItem.course}
                                 className="show"
                               >
-                                {classItem.time} - {classItem.course}
+                                {classItem.time} - {classItem.course} - {classItem.room}
                               </li>
                             ))
                         )}
@@ -202,10 +202,12 @@ function App() {
                           schedule.classes.map((classItem) => (
                               <li
                                 key={classItem.course}
-                                className="show"
+                                className="show"         
+                                style={{marginBottom:'20px'}}                      
                               >
-                                {classItem.time} - {classItem.course}
+                                {classItem.time} - {classItem.course} <div style={{color:'white', background:'black'}} >{classItem.room}</div>
                               </li>
+                          
                             ))
                         )}
                     </ul>

@@ -9,22 +9,26 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "BIO103.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "EEE111.6",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC204"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC211"
                         },
                         {
                             "time": "04:30 PM - 07:00 PM",
                             "course": "EEE111L.6",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC506"
                         }
                     ]
                 },
@@ -34,17 +38,20 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "BIO103.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "EEE111.6",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC204"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC211"
                         }
                     ]
                 },
@@ -54,17 +61,20 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         },
                         {
                             "time": "01:40 PM - 04:20 PM",
                             "course": "CSE332L.1",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC507"
                         },
                         {
                             "time": "04:30 PM - 05:45 PM",
                             "course": "CSE373.5",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC309"
                         }
                     ]
                 },
@@ -74,12 +84,14 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         },
                         {
                             "time": "04:30 PM - 05:45 PM",
                             "course": "CSE373.5",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC309"
                         }
                     ]
                 },
@@ -104,12 +116,14 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "BBT314.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC405"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ENG105.4",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC213"
                         }
                     ]
                 },
@@ -119,12 +133,14 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "BBT314.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC405"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ENG105.4",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC213"
                         }
                     ]
                 },
@@ -134,7 +150,8 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "BBT315.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC407"
                         }
                     ]
                 },
@@ -144,12 +161,14 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "BBT315.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC407"
                         },
                         {
                             "time": "03:05 PM - 05:45 PM",
                             "course": "BIO201L.8",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC414"
                         }
                     ]
                 }
@@ -164,7 +183,8 @@
                         {
                             "time": "09:25 AM - 01:30 PM",
                             "course": "ARC215.2",
-                            "duration": 3
+                            "duration": 3,
+                            "room": "LIB904_V"
                         }
                     ]
                 },
@@ -174,7 +194,8 @@
                         {
                             "time": "09:25 AM - 01:30 PM",
                             "course": "ARC215.2",
-                            "duration": 3
+                            "duration": 3,
+                            "room": "LIB904_V"
                         }
                     ]
                 },
@@ -184,17 +205,20 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "PBH101.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC210"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ARC272.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "LIB908"
                         },
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "ARC283.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "OAT901"
                         }
                     ]
                 },
@@ -204,17 +228,20 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "PBH101.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC210"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ARC272.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "LIB908"
                         },
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "ARC334.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "LIB907"
                         }
                     ]
                 },
@@ -224,12 +251,14 @@
                         {
                             "time": "09:25 AM - 01:30 PM",
                             "course": "ARC215.2",
-                            "duration": 3
+                            "duration": 3,
+                            "room": "LIB904_V"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ARC282.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "OAT901"
                         }
                     ]
                 }
@@ -244,17 +273,20 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "BIO103.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC211"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "EEE141.13",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC308"
                         }
                     ]
                 },
@@ -264,17 +296,20 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "BIO103.10",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC211"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "EEE141.13",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC308"
                         }
                     ]
                 },
@@ -284,17 +319,20 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         },
                         {
                             "time": "01:40 PM - 04:20 PM",
                             "course": "CSE332L.1",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC507"
                         },
                         {
                             "time": "04:30 PM - 05:45 PM",
                             "course": "HIS102.11",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC406"
                         }
                     ]
                 },
@@ -304,12 +342,14 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         },
                         {
                             "time": "04:30 PM - 05:45 PM",
                             "course": "HIS102.11",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC406"
                         }
                     ]
                 },
@@ -319,7 +359,8 @@
                         {
                             "time": "01:40 PM - 04:20 PM",
                             "course": "EEE141L.13",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC504"
                         }
                     ]
                 }
@@ -334,12 +375,14 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "MIC316.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "BBT203.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC512"
                         }
                     ]
                 },
@@ -349,17 +392,20 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "MIC316.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC403"
                         },
                         {
                             "time": "09:25 AM - 12:05 PM",
                             "course": "BIO201L.6",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC414"
                         },
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "BBT203.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC512"
                         }
                     ]
                 },
@@ -369,7 +415,8 @@
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "MIC315.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC413"
                         }
                     ]
                 },
@@ -379,7 +426,8 @@
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "MIC315.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC413"
                         }
                     ]
                 },
@@ -389,12 +437,15 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "MIC309.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC405"
+
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "HIS103.21",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC412"
                         }
                     ]
                 },
@@ -404,12 +455,14 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "MIC309.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC405"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "HIS103.21",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC412"
                         }
                     ]
                 }
@@ -417,24 +470,27 @@
         },
         {
             "name": "Adeeba Sadaf",
-            "schedule": [             
+            "schedule": [
                 {
                     "day": "Monday",
                     "classes": [
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "ENV373.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC203"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "ECO103.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC991"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ENV172.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC991"
                         }
                     ]
                 },
@@ -444,17 +500,20 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "ENV373.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC203"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "ECO103.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC991"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "ENV172.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC991"
                         }
                     ]
                 },
@@ -464,12 +523,15 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "HIS103.42",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC618"
+
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "ENG105.16",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC414"
                         }
                     ]
                 },
@@ -479,15 +541,18 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "HIS103.42",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC618"
+
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "ENG105.16",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC414"
                         }
                     ]
-                }               
+                }
             ]
         },
         {
@@ -499,17 +564,20 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "ENV373.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC203"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC211"
                         },
                         {
                             "time": "01:40 PM - 04:20 PM",
                             "course": "CEE250L.3",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "B113"
                         }
                     ]
                 },
@@ -519,13 +587,15 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "ENV373.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC203"
                         },
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "MAT125.24",
-                            "duration": 1
-                        }                        
+                            "duration": 1,
+                            "room": "SAC211"
+                        }
                     ]
                 },
                 {
@@ -534,7 +604,8 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "CEE260.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
                         }
                     ]
                 },
@@ -544,7 +615,8 @@
                         {
                             "time": "12:15 PM - 01:30 PM",
                             "course": "CEE260.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
                         }
                     ]
                 },
@@ -554,22 +626,27 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "CEE213.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
+
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "CEE212.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
                         },
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "CEE250.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC510"
                         },
                         {
                             "time": "04:30 PM - 07:00 PM",
                             "course": "CEE212L.3",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "TBA"
                         }
                     ]
                 },
@@ -579,17 +656,20 @@
                         {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "CEE213.2",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "CEE212.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC304"
                         },
                         {
                             "time": "03:05 PM - 04:20 PM",
                             "course": "CEE250.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "NAC510"
                         }
                     ]
                 }
@@ -597,24 +677,27 @@
         },
         {
             "name": "Tanvir Ahmed Khan",
-            "schedule": [             
+            "schedule": [
                 {
                     "day": "Sunday",
                     "classes": [
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         },
                         {
                             "time": "10:50 AM - 01:30 PM",
                             "course": "PHY107L.20",
-                            "duration": 2
+                            "duration": 2,
+                            "room" :"SAC510"
                         },
                         {
                             "time": "01:40 PM - 04:20 PM",
                             "course": "CSE332L.1",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC507"
                         }
                     ]
                 },
@@ -624,7 +707,8 @@
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "CSE332.1",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC207"
                         }
                     ]
                 },
@@ -634,23 +718,27 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "EEE111.12",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC205"
                         },
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "PHY107.13",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC314"
                         },
                         {
                             "time": "10:50 AM - 01:30 PM",
                             "course": "EEE111L.12",
-                            "duration": 2
+                            "duration": 2,
+                            "room": "SAC506"
                         },
                         {
                             "time": "01:40 PM - 02:55 PM",
-                            "course": "HIS102.02",
-                            "duration": 1
-                        }                       
+                            "course": "HIS102.2",
+                            "duration": 1,
+                            "room": "NAC406"
+                        }
                     ]
                 },
                 {
@@ -659,18 +747,21 @@
                         {
                             "time": "08:00 AM - 09:15 AM",
                             "course": "EEE111.12",
-                            "duration": 1
+                            "duration": 1,
+                            "room": "SAC205"
                         },
                         {
                             "time": "09:25 AM - 10:40 AM",
                             "course": "PHY107.13",
-                            "duration": 1
-                        },                     
+                            "duration": 1,
+                            "room": "SAC314"
+                        },
                         {
                             "time": "01:40 PM - 02:55 PM",
                             "course": "HIS102.02",
-                            "duration": 1
-                        }           
+                            "duration": 1,
+                            "room": "NAC406"
+                        }
                     ]
                 }
             ]
