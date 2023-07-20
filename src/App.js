@@ -97,13 +97,17 @@ function App() {
         })
     )
   );
-        
-  const filteredUsers2 = data.users.filter((user) =>
-     user.schedule.filter()
 
-  
-     // console.log(filteredUsers2);
-  return (  
+  const filteredUsers2 = data.users.filter((user) =>
+    user.schedule.some(
+      (schedule) =>
+        schedule.day === selectedDay
+    )
+  );
+
+
+  // console.log(filteredUsers2);
+  return (
     <div>
       <div className="container">
         <h1>Users' Routines</h1>
@@ -168,7 +172,7 @@ function App() {
                                 key={classItem.course}
                                 className="show"
                               >
-                                {classItem.time} - {classItem.course} - {classItem.room}
+                                {classItem.time} - {classItem.course} - <div style={{ color: 'white', background: 'black' }} >{classItem.room}</div>
                               </li>
                             ))
                         )}

@@ -226,6 +226,12 @@
                     "day": "Wednesday",
                     "classes": [
                         {
+                            "time": "08:00 AM - 09:15 AM",
+                            "course": "ARC334.1",
+                            "duration": 1,
+                            "room": "LIB907"
+                        },
+                        {
                             "time": "10:50 AM - 12:05 PM",
                             "course": "PBH101.10",
                             "duration": 1,
@@ -236,12 +242,6 @@
                             "course": "ARC272.1",
                             "duration": 1,
                             "room": "LIB908"
-                        },
-                        {
-                            "time": "08:00 AM - 09:15 AM",
-                            "course": "ARC334.1",
-                            "duration": 1,
-                            "room": "LIB907"
                         }
                     ]
                 },
